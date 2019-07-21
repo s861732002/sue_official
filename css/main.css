@@ -1,12 +1,12 @@
 
     @font-face {
         font-family: 'Chivo';
-        src: url('/font/Chivo-Regular.ttf');
+        src: url('../font/Chivo-Regular.ttf');
     }
 
     @font-face {
         font-family: 'Noto_Serif_TC';
-        src: url('/font/NotoSerifTC-Regular.otf');
+        src: url('../font/NotoSerifTC-Regular.otf');
     }
     
     @media (min-width: 1400px) {
