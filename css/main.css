@@ -1,0 +1,84 @@
+
+    @font-face {
+        font-family: 'Chivo';
+        src: url('/font/Chivo-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'Noto_Serif_TC';
+        src: url('/font/NotoSerifTC-Regular.otf');
+    }
+    
+    @media (min-width: 1400px) {
+        .container {
+            max-width: 1760px;
+        }
+    }
+    @media screen and (min-width:1280px) and (max-width:1366px){
+        .container {
+            max-width: 1200px;
+        }
+    }
+    h1,h2,h3,h4,h5,p,.text {
+        font-family: 'Chivo','Noto_Serif_TC';
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #fff;
+    }
+    
+    .cover{
+        cursor: pointer;
+    }
+    .cover:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: #333;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #logo{
+        width: 200px;
+        height: 50px;
+    }
+    #mainNav {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    @media (max-width: 425px) {
+        #mainNav {
+            margin-left: initial;
+            margin-right: initial;
+        }
+    }
+    .bottom-nav .navItem{
+        font-size: 27px;
+        padding: .25em;
+        display: inline-block;
+        color: #e3e3e3;
+        line-height: normal;
+        text-decoration: none;
+    }
+    .bottom-nav a:hover{
+        color: #333;
+    }
+    #inread-page-a{
+        color: #333;
+    }
